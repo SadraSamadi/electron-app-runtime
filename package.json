@@ -16,9 +16,9 @@
   "repository": "https://github.com/SadraSamadi/electron-app-runtime",
   "scripts": {
     "clean": "rimraf ./dist",
-    "build": "tsc --rootDir src --outDir dist",
-    "clean:build": "yarn clean && yarn build",
-    "prepublishOnly": "yarn clean:build",
+    "build": "tsc --outDir dist",
+    "clean:build": "yarn run clean && yarn run build",
+    "prepublishOnly": "yarn run clean:build",
     "release": "np"
   },
   "dependencies": {

@@ -18,5 +18,8 @@
     "sourceMap": true,
     "pretty": true,
     "strict": true
-  }
+  },
+  "include": [
+    "src"
+  ]
 }
