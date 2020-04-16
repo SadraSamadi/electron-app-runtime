@@ -17,8 +17,8 @@
   "scripts": {
     "clean": "rimraf ./dist",
     "build": "tsc --rootDir src --outDir dist",
-    "clean:build": "npm run clean && npm run build",
-    "prepublishOnly": "npm run clean:build",
+    "clean:build": "yarn clean && yarn build",
+    "prepublishOnly": "yarn clean:build",
     "release": "np"
   },
   "dependencies": {
