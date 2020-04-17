@@ -15,10 +15,10 @@
   "main": "dist",
   "repository": "https://github.com/SadraSamadi/electron-app-runtime",
   "scripts": {
-    "clean": "rimraf ./dist",
+    "clean": "rimraf dist",
     "build": "tsc --rootDir src --outDir dist",
-    "clean:build": "yarn run clean && yarn run build",
-    "prepublishOnly": "yarn run clean:build",
+    "clean:build": "yarn clean && yarn build",
+    "prepublishOnly": "yarn clean:build",
     "release": "np"
   },
   "dependencies": {
