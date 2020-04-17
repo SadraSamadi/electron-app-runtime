@@ -1,3 +1,1 @@
-import _ from 'lodash';
-
-_.noop();
+export default {};

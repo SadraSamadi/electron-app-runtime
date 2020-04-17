@@ -16,7 +16,7 @@
   "repository": "https://github.com/SadraSamadi/electron-app-runtime",
   "scripts": {
     "clean": "rimraf ./dist",
-    "build": "tsc --outDir dist",
+    "build": "tsc --rootDir src --outDir dist",
     "clean:build": "yarn run clean && yarn run build",
     "prepublishOnly": "yarn run clean:build",
     "release": "np"
@@ -24,7 +24,6 @@
   "dependencies": {
     "@babel/runtime": "^7.9.2",
     "core-js": "^3.6.5",
-    "lodash": "^4.17.15",
     "regenerator-runtime": "^0.13.5",
     "tslib": "^1.11.1"
   },
