@@ -1,6 +1,6 @@
 {
   "name": "electron-app-runtime",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.0",
   "description": "Runtime modules for Electron App.",
   "keywords": [
     "electron",
