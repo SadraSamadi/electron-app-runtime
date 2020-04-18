@@ -3,7 +3,7 @@
     "lib": [
       "ESNext"
     ],
-    "target": "ES2017",
+    "target": "ES2019",
     "module": "CommonJS",
     "moduleResolution": "Node",
     "forceConsistentCasingInFileNames": true,
