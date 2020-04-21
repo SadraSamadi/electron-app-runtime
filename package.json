@@ -1,6 +1,6 @@
 {
   "name": "electron-app-runtime",
-  "version": "1.0.1",
+  "version": "1.0.0-beat.9",
   "description": "Runtime modules for Electron App.",
   "author": "Sadra Samadi <sadra.smd@gmail.com> (https://sadrasamadi.github.io/)",
   "repository": "https://github.com/SadraSamadi/electron-app-runtime",
@@ -10,6 +10,9 @@
     "elctron-app",
     "runtime"
   ],
+  "scripts": {
+    "release": "yarn publish --prerelease --tag beta"
+  },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
     "core-js": "^3.6.5",
