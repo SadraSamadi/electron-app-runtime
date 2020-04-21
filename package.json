@@ -2,14 +2,19 @@
   "name": "electron-app-runtime",
   "version": "1.0.0-beat.10",
   "description": "Runtime modules for Electron App.",
-  "author": "Sadra Samadi <sadra.smd@gmail.com> (https://sadrasamadi.github.io/)",
   "repository": "https://github.com/SadraSamadi/electron-app-runtime/",
-  "license": "MIT",
+  "homepage": "https://github.com/SadraSamadi/electron-app-runtime/",
+  "author": {
+    "name": "Sadra Samadi",
+    "email": "sadra.smd@gmail.com",
+    "url": "https://sadrasamadi.github.io/"
+  },
   "keywords": [
     "electron",
     "elctron-app",
     "runtime"
   ],
+  "license": "MIT",
   "scripts": {
     "release": "yarn publish --prerelease --tag beta"
   },
