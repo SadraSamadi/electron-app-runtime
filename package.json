@@ -1,6 +1,6 @@
 {
   "name": "electron-app-runtime",
-  "version": "1.0.0-beat.9",
+  "version": "1.0.0-beat.10",
   "description": "Runtime modules for Electron App.",
   "author": "Sadra Samadi <sadra.smd@gmail.com> (https://sadrasamadi.github.io/)",
   "repository": "https://github.com/SadraSamadi/electron-app-runtime",
