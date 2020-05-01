@@ -1,6 +1,6 @@
 {
   "name": "electron-app-runtime",
-  "version": "1.0.0-beat.12",
+  "version": "1.0.0-beta.10",
   "description": "Runtime modules for Electron App.",
   "repository": "https://github.com/SadraSamadi/electron-app-runtime/",
   "homepage": "https://github.com/SadraSamadi/electron-app-runtime/",
