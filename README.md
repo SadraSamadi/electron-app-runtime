@@ -14,6 +14,6 @@ Runtime modules for Electron App.
 * **NPM** `npm i electron-app-runtime`
 * **Yarn** `yarn add electron-app-runtime`
 
-## Other
+## Related
 
 [electron-app-scripts](https://github.com/SadraSamadi/electron-app-scripts)
