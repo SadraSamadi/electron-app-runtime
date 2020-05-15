@@ -4,6 +4,7 @@
   "description": "Runtime modules for Electron App.",
   "repository": "https://github.com/SadraSamadi/electron-app-runtime/",
   "homepage": "https://github.com/SadraSamadi/electron-app-runtime/",
+  "license": "MIT",
   "author": {
     "name": "Sadra Samadi",
     "email": "sadra.smd@gmail.com",
@@ -14,9 +15,10 @@
     "elctron-app",
     "runtime"
   ],
-  "license": "MIT",
+  "files": [],
   "scripts": {
-    "release": "yarn publish --prerelease --tag beta"
+    "release:alpha": "yarn publish --prerelease --tag alpha",
+    "release:beta": "yarn publish --prerelease --tag beta"
   },
   "dependencies": {
     "@babel/runtime": "^7.9.6",

@@ -17,3 +17,5 @@ Runtime modules for Electron App.
 ## Related
 
 [electron-app-scripts](https://github.com/SadraSamadi/electron-app-scripts)
+
+[electron-app-starter](https://github.com/SadraSamadi/electron-app-starter)
